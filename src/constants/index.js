@@ -19,6 +19,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  blender,
+  unity,
+  vue,
 } from "../assets";
 
 export const navLinks = [
@@ -77,8 +80,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue Js",
+    icon: vue,
   },
   {
     name: "Tailwind CSS",
@@ -93,20 +96,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "blender",
+    icon: blender,
+  },
+  {
+    name: "unity",
+    icon: unity,
   },
 ];
 
@@ -159,9 +158,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Blockchain Based Loyalty and Rewards Program",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A decentralized e-commerce website utilizing blockchain technology to incentivize users with fungible tokens as rewards.",
     tags: [
       {
         name: "react",
@@ -175,51 +174,51 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MayuriKolhe-2003/Flipkart_Grid",
   },
   {
-    name: "Job IT",
+    name: "The Shoe Spot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A user-friendly front-end web application designed for shoe shopping. Browse and buy your favorite footwear styles effortlessly, with a seamless and intuitive interface that enhances your online shopping experience..",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "aos",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MayuriKolhe-2003/Shoes-Website",
   },
   {
-    name: "Trip Guide",
+    name: "Car Animation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An entirely self-made car model, crafted from the ground up and animated with precision. Created in Blender and fully prepared for effortless incorporation into the Unity platform.",
     tags: [
       {
-        name: "nextjs",
+        name: "blender",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "davinci resolve",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1Etg3V2zBl86XjBYZ_2gAX6XC9W_6TspJ/view?usp=sharing",
   },
 ];
 
